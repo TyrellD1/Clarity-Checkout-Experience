@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Payment from './Payment';
+import Checkout from './Checkout';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Switch>
+          {/* I made the checkout path / for simplicity sake, in a real app this would have a
+          different path */}
+          <Route path="/" exact component={Checkout} />
+          <Route path="/payment" component={Payment} /> 
+        </Switch>
+      </Router>
     </div>
   );
 }

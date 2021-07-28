@@ -1,3 +1,7 @@
+# Client Time Estimate
+
+Reading the instructions it would make more sense to use the code snippets for the two "bootsnipp" links rather than the "getbootstrap example", but both would satisfy the needs so just checking in to clarify which I should use. (Question I actually have before starting) Also, as it happens there's no provided list of products, so given that we'll be using dummy data when we link up the functionality. Do you have an existing product list you would prefer we connect to or a payment technology like stripe you'd like the shopping cart to connect to?  As it stands, using dummy data this job will take us 2 billable hours. Please let me know so I can give an accurate quote and we can fulfil your needs as best as possible! (Additional questions I would ask the client but considering this is hypothetical I should probably use dummy data)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
